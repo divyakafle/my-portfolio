@@ -1,0 +1,52 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.navbar-container{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+ 
+}
+
+.navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    height: 100px;
+    width: 120px;
+}
+
+
+#logo-image{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+.menu-items-container{
+    right: 100px;
+    position: relative;
+
+}
+
+
+.menu-items-container ul{
+    list-style: none;
+    display:flex;
+    gap:20px;
+
+}
+
+.menu-items-container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 10px;
+
+}
